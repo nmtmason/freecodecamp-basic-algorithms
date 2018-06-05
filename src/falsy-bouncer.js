@@ -1,3 +1,5 @@
-module.exports = function (arr) {
-  return arr.filter(function (x) { return !!x; });
+module.exports = function(arr) {
+  return arr.filter(function(x) {
+    return !!x;
+  });
 };

@@ -1,4 +1,4 @@
-module.exports = function (arr) {
+module.exports = function(arr) {
   var str = arr[0].toLowerCase();
   var test = arr[1].toLowerCase();
 

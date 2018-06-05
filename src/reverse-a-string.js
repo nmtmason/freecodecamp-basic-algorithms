@@ -1,3 +1,6 @@
-module.exports = function (str) {
-  return str.split('').reverse().join('');
+module.exports = function(str) {
+  return str
+    .split('')
+    .reverse()
+    .join('');
 };

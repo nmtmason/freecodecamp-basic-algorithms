@@ -1,4 +1,4 @@
-module.exports = function (str, num) {
+module.exports = function(str, num) {
   if (str.length <= num) {
     return str;
   }

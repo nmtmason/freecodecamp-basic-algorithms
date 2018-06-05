@@ -1,3 +1,3 @@
-module.exports = function (arr, howMany) {
+module.exports = function(arr, howMany) {
   return arr.slice(howMany);
 };

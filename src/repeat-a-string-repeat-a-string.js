@@ -1,3 +1,3 @@
-module.exports = function (str, num) {
+module.exports = function(str, num) {
   return num > 0 ? str.repeat(num) : '';
 };

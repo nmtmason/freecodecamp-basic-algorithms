@@ -1,5 +1,5 @@
-module.exports = function (str) {
-  var codes = str.split('').map(function (x) {
+module.exports = function(str) {
+  var codes = str.split('').map(function(x) {
     var code = x.charCodeAt(0);
     // Give back the code unaltered if it's not an alphabet letter
     if (!/[A-Z]/.test(x)) {
@@ -11,5 +11,9 @@ module.exports = function (str) {
     }
     return code - 13;
   });
-  return codes.map(function (x) { return String.fromCharCode(x); }).join('');
+  return codes
+    .map(function(x) {
+      return String.fromCharCode(x);
+    })
+    .join('');
 };
